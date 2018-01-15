@@ -18,7 +18,7 @@ npm run build
 npm install gh-pages --save-dev
 ```
 
-Se va a usar la utilidad de [línea de comando](https://www.npmjs.com/package/gh-pages#command-line-utility).
+Se va a usar la utilidad de [línea de comando](https://www.npmjs.com/package/gh-pages#command-line-utility):
 
 - En package.json añadir línea:
 
@@ -32,9 +32,7 @@ Se va a usar la utilidad de [línea de comando](https://www.npmjs.com/package/gh
 npm run deploy
 ```
 
-- Se puede ver el proceso en https://travis-ci.org/cristinafsanz/vue-gh-pages-npm.
-
-- Activar GitHub Pages en gh-pages desde el navegador de GitHub (en Settings).
+No hace falta crear la rama, se crea y se publica automáticamente.
 
 Resultado en https://cristinafsanz.github.io/vue-gh-pages-npm/#/.
 
